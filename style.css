@@ -5,7 +5,7 @@
 }
 .site-header{
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     background: linear-gradient(pink, purple);
 }
 img{
@@ -20,12 +20,12 @@ nav{
 }
 .logo{
     width: 50%;
-    height: 100px;
+    height:100px;
 }
 .logo h1{
     line-height: 100px;
     padding-left: 50px;
-    font-size: 30px;
+    font-size: 50px;
 }
 .menu{
     width: 50%;
@@ -38,21 +38,36 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    color: black;
 }
 .menu ul li{
     list-style: none;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: bolder;
     text-transform: uppercase;
 }
 section{
     text-align: center;
     padding-bottom: 50px;
+    padding-top: 30px;
 }
 .but{
-    font-size:10px ;
+    font-size:20px ;
     background: linear-gradient(pink, purple);
     border-radius: 4px;
-    padding: 3px;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: bolder;
 }
+.tag{
+    font-size: 40px;
+
+}
+p{
+    font-size: 20px;
+}
+button{
+    cursor: pointer;
+}
+.leftside{
+    height: max-content;
+}    
